@@ -1,0 +1,22 @@
+package Programming;
+
+public class reverseword {
+
+	public static void main(String[] args) {
+		
+		String str = "Hi hello";
+		String[] rev = str.split(" ");
+		
+		for(int i=str.length()-1;i>=0;i--){
+			
+		String revs =" ";
+		for(int j=rev.length-1;j>=0;j--) {
+			
+			revs =  revs + rev[i];
+		}
+		System.out.println(revs);
+		}
+		//System.out.println(rev);
+	}
+	
+}

@@ -1,0 +1,13 @@
+package Programming;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		
+		String str1 = "army";
+		String str2 = "mary";
+		
+		char[] str11 = str1.toCharArray();
+		char[] str22 = str2.toCharArray();
+	}
+}

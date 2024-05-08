@@ -1,0 +1,17 @@
+package Programming;
+
+public class reverseword {
+
+	public static void main(String[] args) {
+		
+		String str = "Hi hello";
+		String rev ="";
+		
+		for(int i=str.length()-1;i>=;i--){
+			
+			rev =  rev + str.charAt(i);
+		}
+		System.out.println(rev);
+	}
+	
+}

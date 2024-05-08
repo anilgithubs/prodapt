@@ -1,0 +1,23 @@
+package Programming;
+
+public class ReverseEachWord {
+
+	public static void main(String[] args) {
+		String str = "Hi Hello How are you";
+		String[] st =  str.split("");
+		
+		for(String s:st) {
+			String rev = "";
+			int j = s.length()-1;
+			while(j>0) {
+			  char ch = s.charAt(j);
+			  rev =  rev + ch +"";
+			  j--;
+			}
+			System.out.println(rev);
+		}
+		
+		
+		
+	}
+}
